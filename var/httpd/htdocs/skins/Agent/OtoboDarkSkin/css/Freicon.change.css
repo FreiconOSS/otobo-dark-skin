@@ -55,6 +55,9 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     body.ck-content {
         background-color: black;
     }
+    .ck-content, .ck-content *{
+        color: white;
+    }
     .OverviewBox > h1 { /*Header "Queue-Ansicht: xyz"*/
         color: #c8c6c4;
     }
