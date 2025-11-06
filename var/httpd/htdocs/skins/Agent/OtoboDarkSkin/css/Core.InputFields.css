@@ -122,6 +122,17 @@ div.InputField_ToolbarContainer ul li a:hover {
     background-image: url('../img/inputfield_tree.png');
 }
 
+/*Freicon add*/
+div.InputField_TreeContainer {
+    background-color: #1f1f1f;
+}
+.jstree-InputField .jstree-anchor, .jstree-InputField .jstree-anchor:link, .jstree-InputField .jstree-anchor:visited, .jstree-InputField .jstree-anchor:hover, .jstree-InputField .jstree-anchor:active {
+color: white;
+}
+div.InputField_Selection div{
+    color: white;
+}
+
 /**
  * @subsection  jsTree theme - No Tree variant
  */

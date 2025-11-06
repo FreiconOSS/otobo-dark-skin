@@ -55,5 +55,17 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     body.ck-content {
         background-color: black;
     }
-
+    .OverviewBox > h1 { /*Header "Queue-Ansicht: xyz"*/
+        color: #c8c6c4;
+    }
+    /*Core.Inputfields.css*/
+    div.InputField_TreeContainer {
+        background-color: #1f1f1f;
+    }
+    .jstree-InputField .jstree-anchor, .jstree-InputField .jstree-anchor:link, .jstree-InputField .jstree-anchor:visited, .jstree-InputField .jstree-anchor:hover, .jstree-InputField .jstree-anchor:active {
+    color: white;
+    }
+    div.InputField_Selection div{
+        color: white;
+    }
 }
