@@ -375,4 +375,10 @@ ul.WidgetTooltip li a:hover i {
     background: #777;
 }
 
+
+.WidgetSimple > .Content {
+    background-color: #2B2B2B; /*Test if change will work*/
+}
+
+
 } /* end @media */
