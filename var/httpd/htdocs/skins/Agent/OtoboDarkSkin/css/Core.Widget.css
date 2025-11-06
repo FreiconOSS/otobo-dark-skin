@@ -375,9 +375,9 @@ ul.WidgetTooltip li a:hover i {
     background: #777;
 }
 
-
+/*Freicon add*/
 .WidgetSimple > .Content {
-    background-color: #2B2B2B; /*Test if change will work*/
+    background-color: #2B2B2B; 
 }
 
 

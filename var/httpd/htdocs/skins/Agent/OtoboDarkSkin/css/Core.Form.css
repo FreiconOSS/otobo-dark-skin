@@ -285,4 +285,9 @@ iframe.Signature {
  * @subsection freetext fields
  */
 
+/*Freicon add*/
+ fieldset.TableLike.FixedLabelSmall > .Value{
+    color: #c8c6c4;
+} 
+
 } /* end @media */

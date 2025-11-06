@@ -275,4 +275,9 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     border-top-color: #ccc;
 }
 
+/*Freicon add*/
+div.Headline h1 {
+    color: #c8c6c4;
+}
+
 } /* end @media */
