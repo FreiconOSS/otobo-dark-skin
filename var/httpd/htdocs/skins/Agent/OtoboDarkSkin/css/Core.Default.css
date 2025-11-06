@@ -622,6 +622,26 @@ body > div.MetaFloater > div.NoPreview i {
 .OverviewControl.Loading .ControlRow:after {
     color: #777;
 }
+
+/*Freicon add*/
+body.ck-content strong {
+    color: white;
+}
+body.ck-content a, body.ck-content u {
+    color: #2D7DF4 !important;
+}
+body.ck-content p, body.ck-content span, body.ck-content div {
+    color: white;
+}
+body.ck-content {
+    background-color: black;
+}
+.ck-content, .ck-content *{
+    color: white;
+}
+.OverviewBox > h1 { /*Header "Queue-Ansicht: xyz"*/
+    color: #c8c6c4;
+}
 }
 
 /*
@@ -664,23 +684,5 @@ body > div.MetaFloater > div.NoPreview i {
     color: #000;
 }
 
-/*Freicon add*/
-body.ck-content strong {
-    color: white;
-}
-body.ck-content a, body.ck-content u {
-    color: #2D7DF4 !important;
-}
-body.ck-content p, body.ck-content span, body.ck-content div {
-    color: white;
-}
-body.ck-content {
-    background-color: black;
-}
-.ck-content, .ck-content *{
-    color: white;
-}
-.OverviewBox > h1 { /*Header "Queue-Ansicht: xyz"*/
-    color: #c8c6c4;
-}
+
 

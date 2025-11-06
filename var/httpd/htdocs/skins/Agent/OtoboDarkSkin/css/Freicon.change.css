@@ -41,7 +41,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     fieldset.TableLike.FixedLabelSmall > .Value{
         color: #c8c6c4;
     }
-    
+
     /*Core.Default.css*/
     body.ck-content strong {
         color: white;
@@ -61,6 +61,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     .OverviewBox > h1 { /*Header "Queue-Ansicht: xyz"*/
         color: #c8c6c4;
     }
+
     /*Core.Inputfields.css*/
     div.InputField_TreeContainer {
         background-color: #1f1f1f;
