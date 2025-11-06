@@ -34,7 +34,8 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
         background-color: #0a0a0a;
     }
     .ArticleMailContent iframe {
-        background-color: #0a0a0a;
+        background-color: #c8c6c4;
+        opacity: 1;
     }
 
     /*Core.Form.css*/
@@ -60,29 +61,5 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     div.InputField_Selection div{
         color: white;
     }
-    
-    /*CKEditor.Content.css*/
-    .ck-content,
-    .ck-content * {
-        color: white !important;
-    }
 
-    .ck-content {
-        background-color: black !important;
-    }
-
-    .ck-content strong {
-        color: white !important;
-    }
-
-    .ck-content a,
-    .ck-content u {
-        color: #2D7DF4 !important;
-    }
-
-    .ck-content p,
-    .ck-content span,
-    .ck-content div {
-        color: white !important;
-    }
 }

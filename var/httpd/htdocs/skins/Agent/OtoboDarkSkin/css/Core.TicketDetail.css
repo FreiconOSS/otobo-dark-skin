@@ -283,7 +283,8 @@ div.Headline h1 {
     background-color: #0a0a0a;
 }
 .ArticleMailContent iframe {
-    background-color: #0a0a0a;
+    background-color: #c8c6c4;
+    opacity: 1;
 }
 
 } /* end @media */
