@@ -11,14 +11,25 @@
         <Item Key="HomePage">https://github.com/relkai/otobo-dark-skin</Item>
       </Hash>
     </Value>
-  </Setting> <!--Freicon add-->
-  <Setting Name="Frontend::RichText::ContentCSS###OtoboDarkSkin" Required="0" Valid="1">
-    <Description Translatable="1">Custom CSS for CKEditor content area in OtoboDarkSkin.</Description>
-    <Navigation>Frontend::RichText</Navigation>
+  </Setting>
+  <!--Freicon add: JavaScript module for CKEditor dark mode styles-->
+  <Setting Name="Loader::Module::AgentInterface###900-OtoboDarkSkin" Required="0" Valid="1">
+    <Description Translatable="1">Loader module registration for OtoboDarkSkin JavaScript.</Description>
+    <Navigation>Frontend::Base::Loader</Navigation>
     <Value>
-      <Array>
-        <Item>skins/Agent/OtoboDarkSkin/css/CKEditor.Content.css</Item>
-      </Array>
+      <Hash>
+        <Item Key="Group"></Item>
+        <Item Key="GroupRo"></Item>
+        <Item Key="Loader">
+          <Hash>
+            <Item Key="JavaScript">
+              <Array>
+                <Item>Core.Agent.OtoboDarkSkin.js</Item>
+              </Array>
+            </Item>
+          </Hash>
+        </Item>
+      </Hash>
     </Value>
   </Setting>
 </otobo_config>
