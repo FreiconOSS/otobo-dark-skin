@@ -1,0 +1,24 @@
+/* CKEditor Content Styles für Dark Mode */
+.ck-content,
+.ck-content * {
+    color: white !important;
+}
+
+.ck-content {
+    background-color: black !important;
+}
+
+.ck-content strong {
+    color: white !important;
+}
+
+.ck-content a,
+.ck-content u {
+    color: #2D7DF4 !important;
+}
+
+.ck-content p,
+.ck-content span,
+.ck-content div {
+    color: white !important;
+}
