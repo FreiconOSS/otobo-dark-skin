@@ -44,19 +44,19 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
     /*Core.Default.css*/
     body.ck-content strong {
-        color: white;
+        color: white !important;
     }
     body.ck-content a, body.ck-content u {
-        color: #2D7DF4;
+        color: #2D7DF4 !important;
     }
     body.ck-content p, body.ck-content span, body.ck-content div {
-        color: white;
+        color: white !important;
     }
     body.ck-content {
-        background-color: black;
+        background-color: black !important;
     }
     .ck-content, .ck-content *{
-        color: white;
+        color: white !important;
     }
     .OverviewBox > h1 { /*Header "Queue-Ansicht: xyz"*/
         color: #c8c6c4;
