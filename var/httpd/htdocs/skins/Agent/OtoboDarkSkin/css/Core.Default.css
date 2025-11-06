@@ -663,3 +663,17 @@ body > div.MetaFloater > div.NoPreview i {
     background: #ccc !important;
     color: #000;
 }
+
+/*Freicon add*/
+body.ck-content strong {
+    color: white;
+}
+body.ck-content a, body.ck-content u {
+    color: #2D7DF4;
+}
+body.ck-content p, body.ck-content span, body.ck-content div {
+    color: white;
+}
+body.ck-content {
+    background-color: black;
+}

@@ -17,6 +17,8 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  * @section     WidgetMenu
  */
 
+
+ /*Overview which files get changed - Freicon changes at the end of the file*/
  @media screen,projection,tv,handheld {
 
     /*Core.Widget.css*/
@@ -28,10 +30,30 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     div.Headline h1 {
         color: #c8c6c4;
     }
+    .MessageBrowser p {
+        background-color: #0a0a0a;
+    }
+    .ArticleMailContent iframe {
+        background-color: #0a0a0a;
+    }
 
     /*Core.Form.css*/
     fieldset.TableLike.FixedLabelSmall > .Value{
         color: #c8c6c4;
+    }
+    
+    /*Core.Default.css*/
+    body.ck-content strong {
+        color: white;
+    }
+    body.ck-content a, body.ck-content u {
+        color: #2D7DF4;
+    }
+    body.ck-content p, body.ck-content span, body.ck-content div {
+        color: white;
+    }
+    body.ck-content {
+        background-color: black;
     }
 
 }

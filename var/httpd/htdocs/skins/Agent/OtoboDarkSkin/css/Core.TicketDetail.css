@@ -279,5 +279,11 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 div.Headline h1 {
     color: #c8c6c4;
 }
+.MessageBrowser p {
+    background-color: #0a0a0a;
+}
+.ArticleMailContent iframe {
+    background-color: #0a0a0a;
+}
 
 } /* end @media */
