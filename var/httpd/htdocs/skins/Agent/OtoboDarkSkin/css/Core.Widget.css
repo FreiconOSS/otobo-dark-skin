@@ -379,6 +379,12 @@ ul.WidgetTooltip li a:hover i {
 .WidgetSimple > .Content {
     background-color: #2B2B2B; 
 }
+ul.Tablelike li:nth-child(even) {
+    color: white;
+}
+ul.Tablelike li {
+    color: white;
+}
 
 
 } /* end @media */

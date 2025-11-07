@@ -25,6 +25,12 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     .WidgetSimple > .Content {
         background-color: #2B2B2B;
     }
+    ul.Tablelike li:nth-child(even) {
+        color: white;
+    }
+    ul.Tablelike li {
+        color: white;
+    }
 
     /*Core.TicketDetail.css*/
     div.Headline h1 {
@@ -45,7 +51,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
     /*Core.Default.css*/
     body.ck-content {
-        background-color: black !important;
+        background-color: black;
     }
     .OverviewBox > h1 { /*Header "Queue-Ansicht: xyz"*/
         color: #c8c6c4;
@@ -67,6 +73,10 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
     /*Core.OverviewControl.css*/
     .OverviewZoom + .Pagination {
+        color: white;
+    }
+    /*.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight -> nicht hinzugefügt*/ 
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
         color: white;
     }
 
