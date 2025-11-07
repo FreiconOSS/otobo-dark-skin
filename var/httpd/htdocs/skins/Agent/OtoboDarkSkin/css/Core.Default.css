@@ -624,9 +624,9 @@ body > div.MetaFloater > div.NoPreview i {
 }
 
 /*Freicon add*/
-body.ck-content {
+/*body.ck-content {
     background-color: black !important;
-}
+}*/
 .OverviewBox > h1 { /*Header "Queue-Ansicht: xyz"*/
     color: #c8c6c4;
 }
