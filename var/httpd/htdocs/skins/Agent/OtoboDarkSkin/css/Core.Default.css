@@ -630,6 +630,9 @@ body > div.MetaFloater > div.NoPreview i {
 .OverviewBox > h1 { /*Header "Queue-Ansicht: xyz"*/
     color: #c8c6c4;
 }
+.MainBox > h1 {
+    color: #c8c6c4;
+}
 }
 
 /*

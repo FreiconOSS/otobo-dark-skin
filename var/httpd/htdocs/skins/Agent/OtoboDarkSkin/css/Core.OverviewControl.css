@@ -49,6 +49,11 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
     color: #333;
 }
 
+/*Freicon add*/
+.OverviewZoom + .Pagination {
+    color: white;
+}
+
 /**
  * @subsection  Control Row Overview Header for Medium and Large View
  */
