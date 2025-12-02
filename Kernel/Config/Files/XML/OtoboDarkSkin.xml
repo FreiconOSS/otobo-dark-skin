@@ -11,6 +11,41 @@
         <Item Key="HomePage">https://github.com/relkai/otobo-dark-skin</Item>
       </Hash>
     </Value>
-  </Setting> <!--Freicon add-->
+  </Setting>
+  <Setting Name="AgentLogoCustom###OtoboDarkSkin" Required="0" Valid="1">
+        <Description Translatable="1">The logo shown in the header of the agent interface. The URL to the image can be a relative URL to the skin image directory, or a full URL to a remote web server.</Description>
+        <Navigation>Frontend::Agent</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="URL">skins/Agent/OtoboDarkSkin/img/logo_freicon_invert.png</Item>
+                <Item Key="StyleTop">23px</Item>
+                <Item Key="StyleRight">6px</Item>
+                <Item Key="StyleHeight">55px</Item>
+                <Item Key="StyleWidth">245px</Item>
+            </Hash>
+        </Value>
+    </Setting>
+    <Setting Name="AgentLoginLogo" Required="0" Valid="1">
+        <Description Translatable="1">The logo shown in the header of the agent interface. The URL to the image can be a relative URL to the skin image directory, or a full URL to a remote web server.</Description>
+        <Navigation>Frontend::Agent</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="StyleHeight">70px</Item>
+                <Item Key="URL">skins/Agent/OtoboDarkSkin/img/logo_freicon_invert.png</Item>
+            </Hash>
+        </Value>
+    </Setting>
+    <Setting Name="Loader::Customer::Skin###000-OtoboDarkSkin" Required="0" Valid="1">
+        <Description Translatable="1">OTOBO Dark Skin for the customer interface.</Description>
+        <Navigation>Frontend::Base::Loader</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="InternalName">OtoboDarkSkin</Item>
+                <Item Key="VisibleName" Translatable="1">OTOBO Dark Skin</Item>
+                <Item Key="Description" Translatable="1">This is the OTOBO Dark Skin.</Item>
+                <Item Key="HomePage">https://github.com/relkai/otobo-dark-skin</Item>
+            </Hash>
+        </Value>
+    </Setting>
 </otobo_config>
 
